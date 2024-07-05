@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- External javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+    <title>Elite Event Planner </title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- External Css -->
+    <link rel="stylesheet" type="text/css" href="css/Rough1.css">
+    </link>
+
+</head>
+
+<body>
+
+    <!-- Main Header  -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 15px 0px;">
+            <div class="container">
+                <a class="navbar-brand" href="event.html" style="color: #ed9834;font-weight: bold;">Elite Event
+                    Planner</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="event.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Service/services.php">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown" onmouseover="showDropdownMenu(this)"
+                            onmouseout="hideDropdownMenu(this)">
+                            <a class="nav-link dropdown-toggle" href="Eventt.html" id="eventsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Events
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+                                <a class="dropdown-item" href="weading/services-wedding.php">Weddings</a>
+                                <a class="dropdown-item" href="gatherings/services-social.php">Social Gatherings</a>
+                                <a class="dropdown-item" href="corporate/services-corporate.php">Corporate Events</a>
+                                <a class="dropdown-item" href="culture/services-cultural.php">Cultural Events</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown" onmouseover="showDropdownMenu(this)"
+                            onmouseout="hideDropdownMenu(this)">
+                            <a class="nav-link dropdown-toggle" href="aboutus.html" id="aboutDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About 
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="aboutus.html">About Us</a>
+                                <a class="dropdown-item" href="our-staff.html">Our Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="access/access.php">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="joinus.php">Join</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost/Final%20EEP/user-registration/">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            function showDropdownMenu(element) {
+                $(element).find('.dropdown-menu').show();
+            }
+  
+            function hideDropdownMenu(element) {
+                $(element).find('.dropdown-menu').hide();
+            }
+        </script>
+  
+    </header>
+    <!------------------------------------------------------------------------
+         main Section starts
+     ------------------------------------------------------------------------->
+
+     <p class="heading">Reception Photos</p>
+     <div class="gallery">
+        <div class="gallery-image">
+            <img src="Images/Rimg1.jpg" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="Images/Rimg2.jpg" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHJlY2VwdGlvbiUyMGV2ZW50c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://images.unsplash.com/photo-1665607437981-973dcd6a22bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHJlY2VwdGlvbiUyMGV2ZW50c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/1173488492/photo/making-a-grand-entrance-into-marriage.jpg?s=612x612&w=0&k=20&c=GSPvMz5Vfi6EXqiZWlK0YoB9K3NUxppn8as3QYAPzKQ=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/1169564701/photo/bride-and-groom-dancing-their-first-dance.jpg?s=612x612&w=0&k=20&c=OugllY6asAkyFuIV_hI4_8KU4oTqgtjP14nut3aS-EU=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/1415056757/photo/colorful-wedding-tents-at-night.jpg?s=612x612&w=0&k=20&c=tJ5NgHKJQs1gJuHTEpd1Uv6peTVxGs5puZUm9zpwT64=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/920270998/photo/beautiful-table-setting-for-an-wedding-reception-or-an-event.jpg?s=612x612&w=0&k=20&c=jxsi4bT_NMn6MsQGYmM4mt0_zNL7KSs1DbJUNhVD4n4=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="Images/Rimg9.jpg" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/1451031337/photo/welcome-to-our-wedding-wedding-sign-for-guests-on-entrance-wooden-frame-or-board-with.jpg?s=612x612&w=0&k=20&c=idtSM_4wj9r2K4F009Ia67-T9gELJbDeOl8O9acjbxc=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/926602378/photo/newlywed-couple-walking-out-church-and-celebrating-wedding-with-confetti.jpg?s=612x612&w=0&k=20&c=vRaVLzixw2x8KUEEXNq8cBCPoaV8sRXQ7SbL9fCWSFc=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/175559502/photo/classy-wedding-setting.jpg?s=612x612&w=0&k=20&c=8CluymAckSE1Qxluoy0f0pHR-2yKq7X-Qj5yTsbzMrs=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/157305454/photo/bride-and-groom-place-cards-with-bouquet-at-wedding-reception.jpg?s=612x612&w=0&k=20&c=OuDb6q1b_AIsZyqukAcgfIBIV-3F4aDc9lIXeBHgtA0=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/1326580445/photo/invitation-for-guests-for-a-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=wyG3rFPKbg102B_4NYc3-c6xNuTFBL3Ol-I_BluYwug=" alt="" class="image">
+        </div>
+        <div class="gallery-image">
+            <img src="https://media.istockphoto.com/id/1132048170/photo/cheerful-newlyweds-at-beach-wedding-ceremnoy.jpg?s=612x612&w=0&k=20&c=cKEF4O6lRVmr6LMFLQXjR-p-aQnh_t7pe5YGt-k65Ho=" alt="" class="image">
+        </div>
+
+    </div>
+  <!------------------------------------------------------------------------
+                                         Footer 
+        -------------------------------------------------------------------------->
+        <a href="#" class="to-top">
+          <i class="fas fa-chevron-up"></i>
+      </a>
+      <br><br>
+      <script>
+      const toTop=document.querySelector(".to-top");
+  
+          window.addEventListener("scroll",()=>{
+              if(window.pageYOffset>100){
+                  toTop.classList.add("active");
+              }
+              else{
+                  toTop.classList.remove("active");
+              }
+          })
+      </script>
+     
+
+     <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3><span>Elite</span> Event Planners</h3>
+
+            <p class="footer-links">
+                <a href="event.html">Home</a>
+                |
+                <a href="Service/services.php">Services</a>
+                |
+                <a href="gallery.html">Gallery</a>
+                |
+                <a href="blog.html">Blog</a>
+                |
+                <a href="contactus.html">Contact</a>
+                |
+                <a href="Eventt.html">Events</a>
+                |
+                <a href="aboutus.html">About</a>
+                |
+                <a href="access/access.php">Accessories</a>
+                |
+                <a href="joinus.php">join</a>
+                |
+                <a href="http://localhost/Final%20EEP/user-registration/">Login</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2023 <strong>Elite Event Planner </strong> All rights reserved
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <a href="https://maps.app.goo.gl/KVaMajKosBpumVqS6"><i class="fa fa-map-marker"></i></a>
+                <p><span><a href="https://maps.app.goo.gl/KVaMajKosBpumVqS6">University Of Sargodha</a></span>
+                    IT Department</p>
+            </div>
+
+            <div>
+                <a href="tel:+92 342 4086828"><i class="fa fa-phone"></i></a>
+                <p> <a href="tel:+92 342 4086828">+92 342 4086828</a></p>
+            </div>
+            <div>
+                <a href="mailto:m.hamza.30130@gmail.com"><i class="fa fa-envelope"></i></a>
+                <p><a href="mailto:m.hamza.30130@gmail.com">m.hamza.30130@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span style="color: #ed9834;">About the company</span>
+                <strong>Elite Event Planner</strong> is the place where you can give a life to your imagination.
+                In the very beginning, our team will create a personalised proposal tailored to fit all of your needs.
+            </p>
+            <div class="wrapper ">
+                <a href="contactus.html">
+                    <div class="icon facebook">
+                        <span><i class="fab fa-facebook-f"></i></span>
+                    </div>
+                </a>
+
+                <a href="contactus.html">
+                    <div class="icon pinterest">
+                        <span><i class="fab fa-pinterest"></i></span>
+                    </div>
+                </a>
+                <a href="contactus.html">
+                    <div class="icon linked-in">
+                        <span><i class="fab fa-linkedin"></i></span>
+                    </div>
+                </a>
+
+                <a href="contactus.html">
+                    <div class="icon instagram">
+                        <span><i class="fab fa-instagram"></i></span>
+                    </div>
+                </a>
+                <a href="contactus.html">
+                    <div class="icon twitter">
+                        <span><i class="fab fa-twitter"></i></span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+  </body>
+  </html>

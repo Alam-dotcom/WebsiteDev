@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- External javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+    <title>Elite Event Planner </title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- External Css -->
+    <link rel="stylesheet" type="text/css" href="css/eventcss.css">
+    </link>
+
+</head>
+
+<body>
+
+    <!-- Main Header  -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 15px 0px;">
+            <div class="container">
+                <a class="navbar-brand" href="event.html" style="color: #ed9834;font-weight: bold;">Elite Event
+                    Planner</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="event.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Service/services.php">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown" onmouseover="showDropdownMenu(this)"
+                            onmouseout="hideDropdownMenu(this)">
+                            <a class="nav-link dropdown-toggle" href="Eventt.html" id="eventsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Events
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+                                <a class="dropdown-item" href="weading/services-wedding.php">Weddings</a>
+                                <a class="dropdown-item" href="gatherings/services-social.php">Social Gatherings</a>
+                                <a class="dropdown-item" href="corporate/services-corporate.php">Corporate Events</a>
+                                <a class="dropdown-item" href="culture/services-cultural.php">Cultural Events</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown" onmouseover="showDropdownMenu(this)"
+                            onmouseout="hideDropdownMenu(this)">
+                            <a class="nav-link dropdown-toggle" href="aboutus.html" id="aboutDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About 
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="aboutus.html">About Us</a>
+                                <a class="dropdown-item" href="our-staff.html">Our Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="access/access.php">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="joinus.php">Join</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost/Final%20EEP/user-registration/">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            function showDropdownMenu(element) {
+                $(element).find('.dropdown-menu').show();
+            }
+  
+            function hideDropdownMenu(element) {
+                $(element).find('.dropdown-menu').hide();
+            }
+        </script>
+  
+    </header>
+    <!------------------------------------------------------------------------
+         main Section starts
+     ------------------------------------------------------------------------->
+
+    <!-- Slider  -->
+
+    <section class="container-fluid p-0">
+
+        <div class="box col-md-12">
+
+            <!----------------------------------------------------------
+                 Carousel
+            ------------------------------------------------------------->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/slider first.png" alt="Weddings " class="d-block">
+                        <div class="carousel-caption text-black">
+                            <h3>Wedding Events</h3>
+                            <p>Make Precious Moments Memorable</p>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/slider second.jpg" alt="Birthday" class="d-block">
+                        <div class="carousel-caption text-orange">
+                            <h3 style="color: black;">Cultural Events</h3>
+                            <p style="color: black;">Make your Cultural Day Memorable</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/slider third.jpg" alt="Cooperative Coverage" class="d-block">
+                        <div class="carousel-caption text-orange">
+                            <h3 style="color: black;">Cooperative Events</h3>
+                            <p style="color: black;">Sharing our love is Collaborative and Cooperative</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/slider fourth.jpg" alt="Birthday" class="d-block">
+                        <div class="carousel-caption text-orange">
+                            <h3 style="color: black;">Social Gatherings</h3>
+                            <p style="color: black;"> Save your Memories</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Aboutus  -->
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color: #ed9834;display: flex;justify-content: center;margin-top: 20px;">UNPARALLELED, STRESS-FREE</h3><br>
+            <h1 style="color: #ed9834;display: flex;justify-content: center;margin-top: 20px;">EVENT PLANNING & DESIGN</h1><br><br>
+            <p style="text-align: justify;">The Elite Event Planner Company experience is unlike any other. Our team guides you from the beginning
+                till the beyond, ensuring a hassle-free experience and a chance to create memories of a lifetime.
+            </p>
+            <p  style="text-align: justify;">With us, customisation is guaranteed. In the very beginning, our team will create a personalised proposal
+                tailored to fit all of your needs. You’ll be paired with a team that best suits your purpose,
+                who will collaborate with you to give life to your imagination. Once a plan of action is formed,we will
+                team up with the best vendors in the area and take care of the details such as scheduling meetings,
+                delivery-dates, payments, day-of setup and more.
+            </p>
+            <p  style="text-align: justify;">When it is showtime, our team will be there to make sure everything goes off without a hitch and
+                guarantee that your event is elevated and unforgettable.
+
+                <a href="aboutus.html"><button type="button" style="border: 1px sloid #ed9834;background-color: #ed9834;">Find Out More</button></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 style="color: #ed9834; display: flex; justify-content: center;">Event Types!</h2>
+                 <hr style="color: #ed9834;font-size: 20px; ">  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="subbox py-5" style="background-color: #ed9834; border-radius: 10px;border: 1px solid #33383b;">
+                    <h2 style="display: flex;justify-content: center;">Weddings</h2>
+                    <div class="img-wrapper">
+                        <a href="weading/services-wedding.php">
+                            <img
+                                src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" height="300px" width="300px">
+                        </a>
+                    </div><br>
+                    <h6 style="text-align: justify;font-size: small; color: aliceblue;">With every last detail taken care of, we're here to ensure the day you've always dreamed of will be
+                        the day you'll never forget.</h6>
+                </div></div><br>
+                <div class="col-md-3">
+                    <div class="subbox py-5" style="background-color: #ed9834;border-radius: 10px;border: 1px solid #33383b;">
+                    <h2 style="display: flex;justify-content: center;">Corporate</h2>
+                    <div class="img-wrapper">
+                        <a href="corporate/services-corporate.php">
+                            <img
+                                src="https://i.pinimg.com/564x/53/89/ec/5389ec34671563161bc02a938ff0ee7c.jpg" height="300px" width="300px">
+                        </a>
+                    </div><br>
+                    <h6 style="text-align: justify;font-size: small; color: aliceblue;">Wow your guests with a unique corporate experience that aligns with your company's mission and
+                        elevates your brand.</h6>
+                </div></div><br>
+                <div class="col-md-3">
+                    <div class="subbox py-5" style="background-color: #ed9834;border-radius: 10px;border: 1px solid #33383b;">
+                    <h2 style="display: flex;justify-content: center;">Social</h2>
+                    <div class="img-wrapper">
+                        <a href="gatherings/services-social.php">
+                            <img
+                                src="https://images.unsplash.com/photo-1621112904887-419379ce6824?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" height="300px" width="300px">
+                        </a>
+                    </div><br>
+                    <h6 style="text-align: justify;font-size: small; color: aliceblue;">From show stopping engagement celebration to an epic surprise birthday party, you dream it and
+                        we'll make it a reality.</h6>
+               </div> </div><br>
+                <div class="col-md-3">
+                    <div class="subbox py-5" style="background-color: #ed9834;border-radius: 10px;border: 1px solid #33383b;">
+                    <h2 style="display: flex;justify-content: center;">Cultural</h2>
+                    <div class="img-wrapper">
+                        <a href="culture/services-cultural.php">
+                            <img
+                                src="https://i.pinimg.com/564x/1c/72/09/1c720964dd23ade6e7f828d0921ff501.jpg" height="300px" width="300px">
+                        </a>
+                    </div><br>
+                    <h6 style="text-align: justify;font-size: small; color: aliceblue;">Culture is the heart of society. Organise events that honour customs and values while
+                        being grand and extravagant.</h6>
+                </div></div><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials  -->
+
+
+    <section class="testim reveal" id="testim">
+        <div class="ts"><br><br>
+            <h3>Testimonials from our</h3>
+            <h2>Happy Clients</h2>
+        </div>
+        <div class="wrap">
+            <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+            <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+
+            <ul class="dots" id="testim-dots">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
+
+            <div class="cont" id="testim-content">
+                <div class="active">
+                    <div class="img"><img
+                            src="http://www.goodmorningimagesdownload.com/wp-content/uploads/2019/10/Best-Whatsapp-DP-Profile-Images-5-300x288.jpg">
+                    </div>
+                    <h2>Gloria R. Clarke</h2>
+                    <p>Needless to say we are extremely satisfied with the results. I’d be lost without Hendecagon Event
+                        Planners. The team worked tirelessly to organise the event of my dreams!</p>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-q3WWsLEVdDsXEddGHxpoE00Y2knvcEJ5pAmjsoUM2DFPFxfZO7_Y2GjBunSUmlbJds&usqp=CAU
+                        ">
+                    </div>
+                    <h2>Laura P. Edwards</h2>
+                    <p>Hendecagon gave me and my husband the wedding of our dreams. They did an amazing job and I would
+                        highly recommend them to anyone.</p>
+                </div>
+                <div>
+                    <div class="img">
+                        <img
+                            src="https://i.dailymail.co.uk/i/pix/2017/04/20/13/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg">
+                    </div>
+                    <h2>Henry M. Lewis
+                    </h2>
+                    <p>The staff was so accommodating and friendly and the evening was simply magical. The service and
+                        attention to detail was impeccable!</p>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQgB2f6NKN7lew9gUW9yrH5g2Z7-c8lAoz0iFbRqtSFTJ1rqjqX
+                        ">
+                    </div>
+                    <h2>William S. Harris</h2>
+                    <p>The corporate retreat planned by Hendecagon was exactly what was needed to get my employees
+                        motivated. I’m definitely getting Hendecagon to plan all our retreats from now on.</p>
+                </div>
+                <div>
+                    <div class="img">
+                        <img
+                            src="https://st2.depositphotos.com/1085342/12431/i/600/depositphotos_124313358-stock-photo-young-blonde-woman-wearing-knitted.jpg">
+                    </div>
+                    <h2>Sarah N. Davies</h2>
+                    <p>The team was simply amazing! The amount of research into my culture to make the event possible
+                        was enormous, but the team never hesitated and the result was a wonderful experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="javascript/script.js"></script>
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 100;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+                else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+    </script>
+
+    <!-- blog  -->
+
+    <div class="inf reveal">
+        <div class="sendm">
+            <h2>Want to Contact us ?</h2>
+            <h2 style="margin-top:0px">Send us a Message</h2>
+
+            <br>
+            <p>Ready to plan your personalised events with the Hendecagon team? Click below to get in touch with us.
+                Plan a meeting where we create a vision board and leave the rest to us. From contacting vendors to
+                on-day coordination, Hendecagon will make sure you don't have to do a thing!</p>
+            <a href="contactus.html">
+                <div class="larrow right">
+                    <div><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </a>
+        </div>
+        <div class="blog">
+            <h2>From the Blog</h2>
+            <h2 style="margin-top:0px">Latest Blog Articles</h2>
+            <br>
+            <p>Wondering about some of the events planned by Hendecagon? Visit our blog to get a glimpse of events
+                planned by our team and how they turned out. Read stories from our clients about the day of the event,
+                or even take a look at the details of the events and get inspired to plan yours!</p>
+            <a href="blog.html">
+                <div class="larrow right">
+                    <div><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </a>
+        </div>
+        <div class="gallery">
+            <h2>Want to See More ?</h2>
+            <h2 style="margin-top:0px">Visit Our Gallery</h2>
+            <br>
+            <p>Not sure how our events turn out? Visit our gallery! We capture moments that make memories of a lifetime.
+                Take a look at pictures of social gatherings, corporate events, weddings and cultural events. Let our
+                images transport you to the events and encourage you to plan an event of your own</p>
+            <a href="gallery.html">
+                <div class="larrow right">
+                    <div><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <br><br>
+    <script>
+        const toTop = document.querySelector(".to-top");
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 100) {
+                toTop.classList.add("active");
+            }
+            else {
+                toTop.classList.remove("active");
+            }
+        })
+    </script>`
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3><span>Elite</span> Event Planners</h3>
+
+            <p class="footer-links">
+                <a href="event.html">Home</a>
+                |
+                <a href="Service/services.php">Services</a>
+                |
+                <a href="gallery.html">Gallery</a>
+                |
+                <a href="blog.html">Blog</a>
+                |
+                <a href="contactus.html">Contact</a>
+                |
+                <a href="Eventt.html">Events</a>
+                |
+                <a href="aboutus.html">About</a>
+                |
+                <a href="access/access.php">Accessories</a>
+                |
+                <a href="joinus.php">join</a>
+                |
+                <a href="http://localhost/Final%20EEP/user-registration/">Login</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2023 <strong>Elite Event Planner </strong> All rights reserved
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <a href="https://maps.app.goo.gl/KVaMajKosBpumVqS6"><i class="fa fa-map-marker"></i></a>
+                <p><span><a href="https://maps.app.goo.gl/KVaMajKosBpumVqS6">University Of Sargodha</a></span>
+                    IT Department</p>
+            </div>
+
+            <div>
+                <a href="tel:+92 342 4086828"><i class="fa fa-phone"></i></a>
+                <p> <a href="tel:+92 342 4086828">+92 342 4086828</a></p>
+            </div>
+            <div>
+                <a href="mailto:m.hamza.30130@gmail.com"><i class="fa fa-envelope"></i></a>
+                <p><a href="mailto:m.hamza.30130@gmail.com">m.hamza.30130@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span style="color: #ed9834;">About the company</span>
+                <strong>Elite Event Planner</strong> is the place where you can give a life to your imagination.
+                In the very beginning, our team will create a personalised proposal tailored to fit all of your needs.
+            </p>
+            <div class="wrapper ">
+                <a href="contactus.html">
+                    <div class="icon facebook">
+                        <span><i class="fab fa-facebook-f"></i></span>
+                    </div>
+                </a>
+
+                <a href="contactus.html">
+                    <div class="icon pinterest">
+                        <span><i class="fab fa-pinterest"></i></span>
+                    </div>
+                </a>
+                <a href="contactus.html">
+                    <div class="icon linked-in">
+                        <span><i class="fab fa-linkedin"></i></span>
+                    </div>
+                </a>
+
+                <a href="contactus.html">
+                    <div class="icon instagram">
+                        <span><i class="fab fa-instagram"></i></span>
+                    </div>
+                </a>
+                <a href="contactus.html">
+                    <div class="icon twitter">
+                        <span><i class="fab fa-twitter"></i></span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
